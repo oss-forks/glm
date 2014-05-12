@@ -114,4 +114,10 @@
 #include "vector_relational.hpp"
 #include "integer.hpp"
 
+#include "gtx/rotate_vector.hpp"
+#include "gtc/matrix_transform.hpp"
+#include "gtx/transform.hpp"
+
+#include "gtx/norm.hpp"
+
 #endif//GLM_INCLUDED
