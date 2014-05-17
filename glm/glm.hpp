@@ -119,5 +119,6 @@
 #include "gtx/transform.hpp"
 
 #include "gtx/norm.hpp"
+#include "gtx/orthonormalize.hpp"
 
 #endif//GLM_INCLUDED
