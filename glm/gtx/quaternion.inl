@@ -11,6 +11,11 @@
 
 namespace glm
 {
+	template <typename T> GLM_FUNC_QUALIFIER T length2(T const & x);
+	template <typename T, precision P> GLM_FUNC_QUALIFIER T length2(detail::tvec2<T, P> const & x);
+	template <typename T, precision P> GLM_FUNC_QUALIFIER T length2(detail::tvec3<T, P> const & x);
+	template <typename T, precision P> GLM_FUNC_QUALIFIER T length2(detail::tvec4<T, P> const & x);
+
 	template <typename T, precision P>
 	GLM_FUNC_QUALIFIER detail::tvec3<T, P> cross
 	(
